@@ -14,7 +14,7 @@ class SplashActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.animationViews.postDelayed({
-            startActivity(Intent(this@SplashActivity, MainActivity::class.java))
+            startActivity(Intent(this@SplashActivity, LoginActivity::class.java))
             finish()
         },3195)
     }
