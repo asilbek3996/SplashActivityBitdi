@@ -125,6 +125,7 @@
             android:hint="Enter Your RePassword" />
 
         <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnSignUp"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:text="SIGNUP"
@@ -134,5 +135,13 @@
             android:textStyle="bold"
             android:layout_marginTop="32dp"
             android:background="@drawable/button_background"/>
+        <ProgressBar
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:id="@+id/progress_bar"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            android:layout_marginTop="12dp"/>
+
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
